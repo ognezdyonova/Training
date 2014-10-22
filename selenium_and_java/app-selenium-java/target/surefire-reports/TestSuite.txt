@@ -1,0 +1,26 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 45.125 sec <<< FAILURE! - in TestSuite
+testGoogleSearch(com.mycompany.app.pages.GoogleSearch)  Time elapsed: 33.336 sec  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: Unable to find element with id == gbqfq (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 30.28 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.40.0', revision: '4c5c0568b004f67810ee41c459549aa4b09c651e', time: '2014-02-19 11:13:01'
+System info: host: 'Profiler-VAIO', ip: '128.96.8.14', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_20'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{nativeEvents=true, browserName=internet explorer, takesScreenshot=true, javascriptEnabled=true, handlesAlerts=true, version=9, cssSelectorsEnabled=true, platform=WINDOWS}]
+Session ID: 0e85bb5d-da8b-4527-b183-dc46fb78bfee
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:408)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:193)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:145)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:573)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:326)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:367)
+	at org.openqa.selenium.By$ById.findElement(By.java:214)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:318)
+	at com.mycompany.app.pages.GoogleSearch.testGoogleSearch(GoogleSearch.java:20)
+
